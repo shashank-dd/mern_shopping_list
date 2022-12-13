@@ -23,7 +23,7 @@ app.use(morgan('dev'));
 app.use(bodyParser.json());
 
 // DB Config
-const db = `mongodb+srv://shashi:shashi@12@cluster0.r8l6edo.mongodb.net/table?retryWrites=true&w=majority`;
+const db = `db`;
 
 // Connect to Mongo
 mongoose
