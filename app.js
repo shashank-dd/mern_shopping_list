@@ -23,7 +23,7 @@ app.use(morgan('dev'));
 app.use(bodyParser.json());
 
 // DB Config
-const db = `${MONGO_URI}/${MONGO_DB_NAME}`;
+const db = `mongodb+srv://shashi:shashi@12@cluster0.r8l6edo.mongodb.net/table?retryWrites=true&w=majority`;
 
 // Connect to Mongo
 mongoose
